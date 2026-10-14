@@ -2,4 +2,84 @@
 /* Keep the original logo artwork unchanged, with no frame or border. */
 .brand-logo{border:0!important;border-radius:0!important;padding:0!important;background:transparent!important;mix-blend-mode:normal!important;filter:none!important;object-fit:contain!important;}
 .footer-logo{border:0!important;border-radius:0!important;}
+
+/* Professional visual refinement */
+:root{--bg:#080d09;--panel:#101812;--panel2:#15231a;--text:#f4f7f4;--muted:#b6c3b9;--line:#26372b;--green:#9cebb2;--pink:#67d98b;--wine:#1e7a3c;--red:#31a957;--max:1180px}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{font-family:"Inter",sans-serif;font-size:15px;line-height:1.7;letter-spacing:0;color:var(--text);background:radial-gradient(ellipse at 78% -10%,#173a2429 0,transparent 38%),var(--bg);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.brand,.stat strong{font-family:"Manrope","Inter",sans-serif;letter-spacing:-.035em}
+h1{font-weight:800;line-height:1.08;letter-spacing:-.05em}
+h2{font-weight:750;line-height:1.16}
+h3{font-weight:700;line-height:1.3}
+p{line-height:1.8}
+.wrap{width:min(var(--max),calc(100% - 48px))}
+.nav{background:rgba(7,13,8,.94);border-bottom:1px solid #d9f4df13;backdrop-filter:blur(20px)}
+.navinner{min-height:78px;height:auto;padding:10px 0;gap:28px}
+.brand{gap:14px;font-size:17px}
+.brand-logo{max-width:220px;max-height:62px}
+.links,.navgroup{gap:clamp(12px,1.4vw,20px)}
+.links{font-size:12px;font-weight:600;color:#d2ded5}
+.links a{transition:color .2s ease}
+.links a:after{height:2px;bottom:-9px}
+.navcta,.btn{border-radius:8px;padding:12px 18px;font-size:12px;font-weight:700;letter-spacing:.01em}
+.navcta,.btn.primary{background:#238545;box-shadow:0 5px 18px #1b8e4026}
+.navcta:hover,.btn.primary:hover{background:#2b9950;transform:translateY(-1px);filter:none}
+.btn.secondary{border-color:#3b5943;background:#ffffff04}
+.hero{padding:clamp(70px,8vw,112px) 0 clamp(60px,7vw,88px)}
+.hero-grid{gap:clamp(36px,5vw,70px)}
+.eyebrow{border-color:#315b3b;background:#102719;color:#b8f3c7;letter-spacing:1.1px}
+.lead{color:#c3cec5;font-size:clamp(16px,1.35vw,18px);line-height:1.85}
+.micro{gap:18px;color:#a7b5aa}
+.visual{min-height:390px}
+.glass{border-color:#d5f5dd1c;border-radius:16px;box-shadow:0 24px 70px #0005,0 0 40px #1d9d4918}
+.orbit{border-color:#6af59b20}
+.stats{background:#ffffff02;border-color:#ffffff13}
+.statsgrid{padding:28px 0}
+.stat{padding:0 26px}
+.stat strong{font-size:clamp(21px,2.2vw,27px);font-weight:800}
+.stat span{display:block;margin-top:4px;color:#a9b7ac}
+.section{padding:clamp(64px,7.5vw,96px) 0}
+.sectionhead{max-width:720px;margin-bottom:34px}
+.kicker{letter-spacing:1.8px;color:#78d995}
+.section h2{font-size:clamp(30px,4vw,44px);margin:10px 0 16px}
+.sectionhead p,.copy{color:#b6c3b9}
+.cards{gap:18px}
+.card{padding:26px;border-color:#27392c;border-radius:13px;background:linear-gradient(145deg,#111a13,#0b110c);box-shadow:0 5px 18px #0000000b;transition:transform .22s ease,border-color .22s ease,background .22s ease}
+.card:hover{transform:translateY(-4px);border-color:#438e58;box-shadow:0 12px 28px #0003}
+.icon{border-radius:10px;background:#173421;border-color:#2b6940;color:#9cebb2}
+.card h3{font-size:18px;letter-spacing:-.02em;margin:20px 0 10px}
+.card p,.step p,.projectbody p{font-size:13px;line-height:1.8;color:#b6c3b9}
+.textlink{color:#91e6a8}
+.aboutgrid{gap:clamp(35px,6vw,72px)}
+.aboutpanel{border-color:#2a5737;border-radius:15px;background:radial-gradient(ellipse at 10% 0%,#174a2a26,transparent 65%),#101812}
+.check{color:#d5dfd7}
+.steps{gap:18px}
+.step{padding:25px;border-top:2px solid #319450;background:#ffffff03;border-radius:0 0 10px 10px}
+.num{color:#91e6a8}
+.projectgrid{gap:20px}
+.project{border-color:#27392c;border-radius:13px;background:#101812}
+.projectart{height:160px}
+.projectbody{padding:23px}
+.projectbody h3{font-size:18px}
+.pill{border-color:#315b3b;color:#9cebb2;background:#102719}
+.contactbox{gap:clamp(28px,5vw,52px);padding:clamp(24px,4vw,44px);border-color:#2b5737;border-radius:16px}
+.contactitem{border-color:#293b2e;border-radius:9px}
+.contactitem small{margin-bottom:4px;color:#aebdb1}
+.contactitem strong{font-weight:650}
+.faq{border-color:#26372b}
+.faq summary{padding:21px 0;font-size:14px;line-height:1.6}
+.faq p{line-height:1.85;color:#b6c3b9}
+.footer{padding:38px 0 26px;background:#060906;border-top-color:#ffffff14}
+.footertop{padding-bottom:28px}
+.footlinks,.footbottom{color:#a7b5aa}
+.social a{color:#d2ded5}
+.social a:hover{color:#91e6a8}
+.reveal{transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
+.reveal.show{animation:revealLift .55s both}
+::selection{background:#286e3c;color:#fff}
+:focus-visible{outline:2px solid #91e6a8;outline-offset:3px}
+@media(max-width:1000px){.navinner{gap:14px}.links,.navgroup{gap:12px}.links{font-size:11px}.brand-logo{max-width:185px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.wrap{width:min(var(--max),calc(100% - 32px))}.navinner{min-height:70px}.brand-logo{width:180px;height:52px}.hero{padding:62px 0 54px}.hero-grid{grid-template-columns:1fr;gap:28px}.visual{min-height:340px}.orbit{width:270px;height:270px}.glass{max-width:360px}.tag-one{right:2px}.tag-two{left:2px}.statsgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 0}.stat{padding:0 16px}.stat:nth-child(odd){padding-left:0}.stat:nth-child(even){border-right:0}.section{padding:62px 0}.aboutgrid,.contactbox{grid-template-columns:1fr}.steps,.projectgrid{grid-template-columns:1fr}.footertop,.footbottom{align-items:flex-start;flex-direction:column}.links{font-size:13px}}
+@media(max-width:480px){h1{font-size:clamp(38px,11vw,52px)}.lead{font-size:15px}.cards{grid-template-columns:1fr}.card{padding:22px}.contactbox{padding:22px}.checks{grid-template-columns:1fr}.brand-logo{width:155px;height:48px}.navcta{padding:10px 12px}.statsgrid{padding:22px 0}}
+
 </style><style>.brand-logo{mix-blend-mode:screen;background:transparent;border-radius:50%;border:2px solid #39ff14;}</style></head><body><header class="site-nav"><div class="navinner"><a href="index.html" aria-label="EderStone Corp home"><img class="brand-logo" src="WhatsApp Image 2026-10-14 at 15.46.16.jpeg" alt="EderStone Corp logo"></a><nav class="navlinks" aria-label="Site navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="projects.html">Projects</a><span class="group-pages"><a href="process.html">Our Process</a><a href="blog.html">Insights</a><a href="careers.html">Careers</a><a href="faqs.html">FAQs</a><a href="contact.html">Contact</a></span></nav></div></header><main><p>POLICY INFORMATION</p><h1>Privacy Policy</h1><p>Last updated: 14 October 2026</p><p>EderStone Corp respects the privacy of people who visit this website or contact us about our services. This page explains, in general terms, how information may be handled when you use this website.</p><h2>Information you provide</h2><p>If you contact us by email, phone or WhatsApp, we may receive the contact details and project information you choose to share. We use that information to respond to your enquiry and discuss potential work.</p><h2>Website usage</h2><p>This website is a company information and project-enquiry site. It does not currently provide user accounts or a built-in payment service. Our hosting provider and embedded third-party services may process technical information needed to deliver their services, subject to their own policies.</p><h2>Cookies and third-party services</h2><p>Fonts and links to external services may connect your browser to third-party websites. Those providers may process technical data according to their own privacy policies. This site does not intentionally use advertising trackers.</p><h2>How information is used</h2><ul><li>To reply to messages and project enquiries.</li><li>To understand and scope requested services.</li><li>To maintain, protect and improve the website.</li><li>To meet applicable legal obligations where required.</li></ul><h2>Data sharing and retention</h2><p>We do not sell contact information. Information may be handled by service providers needed to operate our communications or website, or disclosed where legally required. We retain enquiries only as long as reasonably necessary for communication, business records and applicable obligations.</p><h2>Your choices</h2><p>You can choose what information to include when contacting us. For questions about information you have shared, email <a href="mailto:ederstonecorp.dev@gmail.com">ederstonecorp.dev@gmail.com</a>.</p><h2>Policy updates</h2><p>This policy may be updated as our website and services evolve. The latest revision date will appear at the top of this page.</p><p><strong>Contact:</strong> <a href="mailto:ederstonecorp.dev@gmail.com">ederstonecorp.dev@gmail.com</a></p></main><footer>© 2026 EderStone Corp · Building the Future, One Solution at a Time.</footer></body></html>
